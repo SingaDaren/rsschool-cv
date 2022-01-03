@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html {
+    scroll-behavior: smooth; 
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+.header {
+    background-color: #3f3f3f;
+    padding: 20px;
+}
+
+.nav {
+    height: 50px;
+}
+
+.list {
+    list-style: none;
+}
+
+.item {
+    padding-bottom: 5px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    padding: 13px 0;
+}
+
+.nav-item {
+    padding: 0;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.nav-link {
+    padding: 0 15px;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.main {
+    padding: 30px 20%;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.section {
+    width: 40%;
+    padding: 10px;
+}
+
+.section-title {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.section-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.profile-photo {
+    height: 200px;
+    width: 200px;
+}
+
+.profile-title {
+    font-size: 32px;
+}
+
+.right-border {
+    border-right: 4px solid #3f3f3f;
+}
+
+.left-border {
+    border-left: 4px solid #3f3f3f;
+}
+
+
+.section-summary {
+    padding: 20px 100px;
+    margin: 20px 100px;
+    width: 100%;
+    border-top: 4px solid #3f3f3f;
+    border-bottom: 4px solid #3f3f3f;
+}
+
+.footer {
+    background-color: #3f3f3f;
+    padding: 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    padding: 0 200px;
+}
+
+.link-git {
+    height: 50px;
+    width: 50px;
+    background-image: url(./assets/img/git.png);
+    background-size: contain;
+}
+
+.link-rss {
+    height: 70px;
+    width: 120px;
+    background-image: url(./assets/img/rss.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.copyright {
+    color: #ffffff;
+}

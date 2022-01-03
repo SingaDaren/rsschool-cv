@@ -12,25 +12,25 @@
         <nav class="nav">
             <ul class="list nav-list">
                 <li class="item nav-item">
-                    <a href="" class="link nav-link"></a>
+                    <a href="#contacts" class="link nav-link">Contacts</a>
                 </li>
                 <li class="item nav-item">
-                    <a href="" class="link nav-link"></a>
+                    <a href="#skills" class="link nav-link">Skills</a>
                 </li>
                 <li class="item nav-item">
-                    <a href="" class="link nav-link"></a>
+                    <a href="#summary" class="link nav-link">Summary</a>
                 </li>
                 <li class="item nav-item">
-                    <a href="" class="link nav-link"></a>
+                    <a href="#code" class="link nav-link">Code</a>
                 </li>
                 <li class="item nav-item">
-                    <a href="" class="link nav-link"></a>
+                    <a href="#projects" class="link nav-link">Projects</a>
                 </li>
                 <li class="item nav-item">
-                    <a href="" class="link nav-link"></a>
+                    <a href="#education" class="link nav-link">Education</a>
                 </li>
                 <li class="item nav-item">
-                    <a href="" class="link nav-link"></a>
+                    <a href="#languages" class="link nav-link">Languages</a>
                 </li>
             </ul>
         </nav>
@@ -38,63 +38,67 @@
 
     <main class="main">
         <div class="main-container">
-            <section class="section-profile">
-                <img src="" alt="" class="profile-photo">
-                <h1 class="section-title profile-title"></h1>
+            <section class="section section-profile">
+                <img src="./assets/img/profile_photo.jpg" alt="profile photo" class="profile-photo">
+                <h1 class="section-title profile-title">Pavel Dodonov</h1>
             </section>
             <section class="section" id="contacts">
-                <h2 class="section-title"></h2>
-                <ul class="section-list">
-                    <li class="item"></li>
-                    <li class="item"></li>
-                    <li class="item"></li>
+                <h2 class="section-title">Contacts</h2>
+                <ul class="list">
+                    <li class="item"><strong>Phone: </strong>+375 29 955 46 96</li>
+                    <li class="item"><strong>E-mail: </strong>singa.daren@gmail.com</li>
+                    <li class="item"><strong>Discord nickname: </strong>Pavel Dodonov(@SingaDaren)</li>
                 </ul>
             </section>
-            <section class="section" id="skills">
-                <h2 class="section-title"></h2>
-                <ul class="section-list">
-                    <li class="item"></li>
-                    <li class="item"></li>
-                    <li class="item"></li>
-                    <li class="item"></li>
+            <section class="section right-border" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <ul class="list">
+                    <li class="item">HTML</li>
+                    <li class="item">CSS</li>
+                    <li class="item">JS</li>
+                    <li class="item">Git</li>
                 </ul>
             </section>
             <section class="section section-summary" id="summary">
-                <h2 class="section-title"></h2>
-                <p></p>
+                <h2 class="section-title">Summary</h2>
+                <p>Hi there! I’m just a guy who wants to learn Front-end Development. I tried a lot of basic courses, but everytime I was faced to something that prevented me from continuing my studies. 
+                    Also, without any practice and over the time everything was forgotten. So, I’m here again to break this wall.</p>
             </section>
-            <section class="section" id="code">
-                <h2 class="section-title"></h2>
-                <pre class="code">
-                    <code>
-
-                    </code>
-                </pre>
+            <section class="section left-border" id="code">
+                <h2 class="section-title">Code</h2>
+                <pre class="code"><code>function solution(str){
+    let newStr = Array.from(str);
+    newStr = newStr.reverse().join('');
+    return newStr;
+}</code></pre>
             </section>
             <section class="section" id="projects">
-                <h2 class="section-title"></h2>
-                <ul class="section-list">
+                <h2 class="section-title">Projects</h2>
+                <ul class="list">
                     <li class="item">
-                        <a href="" class="link"></a>
+                        <a href="https://singadaren.github.io/rsschool-cv/" class="link">CV</a>
                     </li>
                 </ul>
             </section>
             <section class="section" id="education">
-                <h2 class="section-title"></h2>
-                <p></p>
+                <h2 class="section-title">Education</h2>
+                <p>University: Belarusian State University of Informatics and Radioelectronics, Information technology software</p>
             </section>
-            <section class="section" id="languages">
-                <h2 class="section-title"></h2>
-                <p></p>
+            <section class="section right-border" id="languages">
+                <h2 class="section-title">Languages</h2>
+                <ul class="list">
+                    <li class="item">Russian - native</li>
+                    <li class="item">English - B1</li>
+                </ul>
             </section>
         </div>
     </main>
 
     <footer class="footer">
         <div class="footer-container">
-            <a href="" class="link link-git"></a>
-            <span class="copyright"></span>
-            <a href="" class="link rss-link"></a>
+            <a href="https://github.com/SingaDaren" class="link link-git"></a>
+            <span class="copyright">©2022</span>
+            <a href="https://rs.school/js/" class="link link-rss"></a>
         </div>
     </footer>
 </body>
