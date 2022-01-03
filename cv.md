@@ -22,3 +22,10 @@ function solution(str){
   return newStr;
 }
 ```
+
+## Education
+**University:** Belarusian State University of Informatics and Radioelectronics, Information technology software
+
+## Languages
+* **Russian** - native
+* **English** - B1
